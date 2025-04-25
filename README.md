@@ -13,7 +13,6 @@ This repository contains code and data for comparing various regression models t
 - [Conclusion](#Conclusion)
 - [Usage](#usage)
 - [Dependencies](#dependencies)
-- [Technical Report](#technical-report)
 
 ## Table of Contents
 Introduction
@@ -36,15 +35,15 @@ This project aims to compare various regression models to predict car prices usi
 ## Dataset
 The dataset contains the following columns:
 
-- Car Name: The name of the car.
-- Price: The price of the car.
-- Engine Capacity: The car's engine capacity.
-- Cylinder: The car's cylinder count.
-- Horse Power: The car's horsepower.
-- Top Speed: The car's top speed.
-- Seats: The number of seats in the car.
-- Brand: The car's brand.
-- Country: The country where the site sells this car.
+- **Car Name**: The name of the car.
+- **Price**: The price of the car.
+- **Engine Capacity**: The car's engine capacity.
+- **Cylinder**: The car's cylinder count.
+- **Horse Power**: The car's horsepower.
+- **Top Speed**: The car's top speed.
+- **Seats**: The number of seats in the car.
+- **Brand**: The car's brand.
+- **Country**: The country where the site sells this car.
 
 ## Preprocessing
 
@@ -104,8 +103,8 @@ To run the code in this repository, follow these steps:
 Or open using your favorite IDE such as vscode.
 
 4. Run the main analysis notebook:
-
-jupyter notebook main.ipynb
+   ```bash
+    jupyter notebook main.ipynb
 This notebook will load the cleaned dataset, implement various regression models, and display the results.
 
 ## Dependencies
@@ -119,5 +118,3 @@ The following Python libraries are required to run the code:
 - IPython
 - Jupyter Notebook
 
-##  Technical Report
-A detailed technical report is available in this repository, providing an in-depth analysis of the data preprocessing steps, model selection, and evaluation metrics. The report includes visualizations and explanations of the results, offering valuable insights into the regression analysis and model selection process. You can check the technical report here..
