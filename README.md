@@ -14,20 +14,6 @@ This repository contains code and data for comparing various regression models t
 - [Usage](#usage)
 - [Dependencies](#dependencies)
 
-## Table of Contents
-Introduction
-Dataset
-Preprocessing
-Cleaning
-Encoding
-Scaling
-Models
-Results
-Conclusion
-Usage
-Dependencies
-Technical Report
-
 
 ## Introduction
 This project aims to compare various regression models to predict car prices using a comprehensive dataset from the YallaMotor website. The analysis evaluates the performance of different regression techniques and identifies the most suitable models for accurate car price prediction.
